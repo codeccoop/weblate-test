@@ -1,0 +1,790 @@
+{
+  "common": {
+    "back_to_home": "Volver al inicio",
+    "change": "Cambiar",
+    "close": "Cerrar",
+    "confirm": "Confirmar",
+    "continue": "Continuar",
+    "continue_using": "Continuar usando",
+    "continue_hire": "Continuar la contratación",
+    "continue_ov": "Volver a la oficina virtual",
+    "contract": "Contratar",
+    "download": "Descargar",
+    "accept": "Aceptar",
+    "edit": "Editar",
+    "cancel": "Cancelar",
+    "assistance_email_message": "Si necesitas aclarar alguna duda, escríbenos a <0>servicios@somosconexion.coop</0>.",
+    "assistance_email": "servicios@somosconexion.coop",
+    "session_expired": "La sesión ha caducado. Por favor, vuelve a iniciar sesión.",
+    "session_idle": "Hace tiempo que estás inactivo. En breve se cerrará la sesión.",
+    "session_up": "Se ha detectado nueva sesión abierta para la oficina virtual en otra ventana. Para continuar el proceso de contratación, haz clic en 'Continuar la contratación'.",
+    "cooperator_register_number": "Número de socio - {{cooperatorRegisterNumber}}",
+    "important": "IMPORTANTE",
+    "line": "Linea",
+    "with": "con",
+    "errors": {
+      "invalid_email_address": "Dirección de correo electrónico no válida.",
+      "request_failed": "Ocurrió un error procesando tu petición. Por favor, prueba de nuevo.",
+      "request_failed_maintenance": "Esta función no está disponible temporalmente por tareas de mantenimiento de sistemas. Vuelve a intentarlo después de las 21h. Si la acció que tienes que realizar es urgente, puedes llamarnos al teléfono de emergencias 693 761 723.",
+      "unknown_mobile_phone": "Este móvil no comparte datos",
+      "validation": {
+        "match_date_format": "Formato de la fecha: DD-MM-AAAA",
+        "match_email_format": "Correo electrónico no válido",
+        "match_iban_format": "El IBAN no es válido",
+        "match_vat_format": "DNI/NIE no válido",
+        "must_match_other": "No coinciden",
+        "must_not_be": "Ya está en uso: {{value}}",
+        "vat_number_in_use": "Éste DNI/NIE ya está en uso",
+        "required": "Rellena este campo",
+        "required_last_name": "Si no tienes 2º apellido, rellena con un guion (-)",
+        "sponsor_vat_or_code_not_valid": "DNI o código de socio/a no válido",
+        "sponsor_vat_full_sponsoreds": "Esta persona socia ya ha alcanzado el número máximo de personas apadrinadas",
+        "history_of_services_empty": "No se han encontrado datos",
+        "invalid_date_format": "La fecha no es valida",
+        "underaged": "El titular del contrato o persona socia tiene que ser mayor de edad (18 años)",
+        "invalid_phone": "El teléfono debe ser fijo o móvil",
+        "invalid_mobile_number": "El número de teléfono debe ser un móvil",
+        "invalid_landline_number": "El número de teléfono debe ser un fijo",
+        "existing_phone": "Este número de teléfono ya tiene contrato con Somos Conexión"
+      }
+    },
+    "euros": "€",
+    "euros_per_month": "€/mes",
+    "finish": "Finalizar",
+    "go_back": "Volver",
+    "loading": "Cargando...",
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "minutes": {
+      "n_minutes": "{{count}} min",
+      "no_minutes": "0 min",
+      "unlimited_minutes": "ilimitadas"
+    },
+    "no": "no",
+    "petition_received_with_email_confirmation": "Solicitud enviada correctamente. Recibirás un correo de confirmación en tu dirección de correo electrónico.",
+    "select": "Seleccionar",
+    "start_again": "Empezar de nuevo",
+    "thanks": "¡Gracias!",
+    "total": "Total",
+    "vat_included": "IVA incluido",
+    "welcome": "Hola, {{name}}",
+    "yes": "sí"
+  },
+  "banned_actions": {
+    "message_new_service_banned": "Lo sentimos pero no es posible realizar esta operación. Para más información ponte en contacto con nosotros a: <0>servicios@somosconexion.coop</0>"
+  },
+  "summer_promotion": {
+    "title": "promoción verano",
+    "message_unlimited_subs": "De julio a septiembre ampliamos 20 GB/mes (sin coste añadido) en las tarifas de móvil ilimitadas <strong>5 GB, 10 GB, 20 GB, 23 GB, 30 GB, 50 GB, 100 GB, 150 GB</strong> debido a la subida automática de las operadoras de las que dependemos. <strong>No es necesario que realices ninguna operación para activar la promo.</strong>",
+    "sub_message": "Este tipo de promociones no encaja con nuestros valores y continuamos promoviendo un consumo consciente. <strong>¡No aumentes tus datos extras si no has recibido el mensaje conforme los has agotado o detectas una bajada en la velocidad de tu conexión!</strong>",
+    "remember": "recuerda"
+  },
+  "funnel": {
+    "address_picker": {
+      "add_new": "Añadir una nueva dirección",
+      "city": "Localidad",
+      "door": "Puerta",
+      "flat": "Piso",
+      "no_results": "Sin resultados",
+      "number": "Número",
+      "other": "Otros (Escalera, bloque...)",
+      "state": "Provincia",
+      "street_hint": "exacta (calle, número, piso, puerta ...)",
+      "zip_code": "Código Postal"
+    },
+    "payment_method_picker": {
+      "add_new": "Añadir nuevo IBAN"
+    },
+    "header": {
+      "body": "Si tienes dudas, puedes pedir que <0>te llamemos para ayudarte.</0>",
+      "steps": {
+        "confirm": "Revisión",
+        "data": "Datos",
+        "payment": "Pago"
+      },
+      "title": "Rellena los datos de cada apartado"
+    },
+    "join": {
+      "authenticated": {
+        "title": "Escoge qué servicios quieres contratar",
+        "subtitle": "Consulta nuestras tarifass"
+      },
+      "sponsored": {
+        "title": "Un amigo o amiga quiere apadrinarte en Somos Conexión",
+        "subtitle": "Para contratar servicios, necesitarás el DNI y código de la persona que te apadrina",
+        "text_1": "Somos Conexión es una telefonía diferente en la que la mayoría de usuarias somos socias. Los apadrinamientos permiten que familiares y amistades de una socia puedan contratar servicios sin tener que pagar el alta (100€ de capital social).",
+        "text_2": "Elige qué servicios quieres contratar:"
+      },
+      "self_agreement": {
+        "title": "Apadrinamiento con Somos Conexión, prueba piloto",
+        "subtitle": "Contrata servicios sin pagar el capital social",
+        "text_1": "Somos Conexión es una telefonía diferente en la que la mayoría de usuarias somos socias. Actualmente, estamos haciendo una prueba piloto donde la cooperativa apadrina a aquellas personas que no pueden hacerse cargo del capital social (100€) y no conocen ninguna socia que les pueda apadrinar.",
+        "text_2": "Si quieres participar en esta prueba piloto, elige los servicios que quieras contratar:",
+        "SC": "Som Connexió"
+      },
+      "coop_agreement": {
+        "title": "Convenio cooperativo {{coopAgreement}} - Somos Conexión",
+        "subtitle": "Aprovecha el convenio y contrata cualquier servicio de Somos Conexión sin pagar el alta de socia",
+        "text_1": "Somos Conexión es una telefonía diferente en la que la mayoría de usuarias somos socias. El convenio cooperativo con {{coopAgreement}} permite que las socias de esta entidad puedan contratar servicios sin tener que pagar el alta (100€ de capital social).",
+        "text_2": "Elige qué servicios quieres contratar:",
+        "MO": "Opcions de Consum Responsable",
+        "MAS": "Mercado Social de Madrid",
+        "SC": "Som Connexió",
+        "PC": "Xarxa de Pols Cooperatius",
+        "ES": "Economat Social",
+        "ER": "El Rodal",
+        "EC": "Esplais Catalans",
+        "TN": "Laboratori d’Abastiment Cooperatiu",
+        "RG": "Rocaguinarda SCCL",
+        "FEE": "Federació Coordinadora d'Espais i Entitats dels Països Catalans",
+        "FE": "Fundació Cívica Esperanzah"
+      },
+      "anonymous": {
+        "i_have_an_account": "Ya soy socio/a o apadrinado/a",
+        "make_an_account": "Hacerme socio/a y contratar",
+        "only_mobile": "(solo móvil)",
+        "partner_sponsors_me": "Un/a socio/a me apadrina",
+        "subtitle": "El alta para asociarse son 100€ retornables",
+        "text_1": "Somos Conexión es una telefonía diferente en la que las usuarias somos socias. Los 100€ de capital social sirven para dar estabilidad financiera e independencia económica a la cooperativa.",
+        "text_2": "Puedes pagarlos en 10 plazos y si algún día te das de baja, te los devolvemos.",
+        "title": "Asóciate y contrata en el mismo proceso"
+      },
+      "common": {
+        "mobile": "Solo móvil",
+        "internet": "Sólo Internet",
+        "subtitle_internet": "Fibra (con Fijo o sin) o 4G (sin Fijo)",
+        "subtitle_internet_mobile": "Fibra (con Fijo o sin)",
+        "both": "Móvil + internet",
+        "button": "Ver tarifas"
+      }
+    },
+    "product_picker": {
+      "only_member": {
+        "description": "Ya contrataré mas adelante",
+        "subtitle": "Sólo socio/a",
+        "title": "También puedes hacerte socio/a y contratar más adelante"
+      },
+      "product_categories": {
+        "internet_and_phone": {
+          "how_many": "¿Cuántas líneas de internet quieres?",
+          "more_info": "Más información de la <1>Fibra</1>",
+          "subtitle": "Fibra (con Fijo o sin)",
+          "title": "Sólo Internet",
+          "want_more": "¿Quieres añadir más líneas de internet?"
+        },
+        "mobile": {
+          "how_many": "¿Cuántas líneas de móvil quieres?",
+          "more_info": "Más información del <0>Móvil</0>",
+          "title": "Sólo Móvil"
+        },
+        "mobile_internet_and_phone": {
+          "more_info": "Más información del <0>Móvil</0> o la <2>Fibra</2>",
+          "subtitle": "Fibra (con Fijo o sin)",
+          "title": "Móvil + Internet"
+        }
+      },
+      "subtitle": "Consulta nuestras tarifas de <0>Internet</0>, <1>Móvil</1> o <2>Internet + Móvil</2>.",
+      "title": "Escoge qué servicios quieres contratar"
+    },
+    "selections": {
+      "gender": {
+        "female": "Mujer",
+        "male": "Hombre",
+        "other": "Otro"
+      },
+      "lang": {
+        "ca": "Catalán",
+        "es": "Castellano"
+      },
+      "previous_broadband_service": {
+        "adsl": "ADSL",
+        "fiber": "Fibra"
+      },
+      "previous_mobile_service": {
+        "contract": "Contrato",
+        "prepaid": "Prepago"
+      }
+    },
+    "shared": {
+      "advice_offer_modal": {
+        "title": "Si cambias la tarida de internet a una tecnología que no sea Fibra, ten en cuenta que la línea móvil de 20 GB dejara de estar asociada a la fibra y perderás el descuento.",
+        "accept": "Continuar sin oferta",
+        "decline": "De acuerdo, me quedo con la fibra"
+      },
+      "additional_info": "Información adicional",
+      "category": {
+        "internet": "Internet (Fibra o 4G)",
+        "mobile": "Móvil",
+        "internet_shared_pack": "Internet (Fibra)",
+        "mobile_shared_pack": "Móvil Datos Compartidos"
+      },
+      "nth_internet_line": "{{ n }} linea de internet (Fibra o ADSL)",
+      "nth_mobile_line": "{{ n }} línea de móvil",
+      "nth_internet_shared_pack_line": "{{ n }} linea internet (Fibra)",
+      "nth_mobile_shared_pack_line": "{{ n }} linea de móvil Datos Compartidos",
+      "remove_service": "Eliminar servicio"
+    },
+    "signup": {
+      "confirm": {
+        "accept_terms": "He leído y acepto <0>las condiciones legales y del servicio</0>",
+        "privacy_terms": "He leído y acepto <0>la política de privacidad</0>",
+        "must_accept_terms": "Tienes que aceptar las condiciones",
+        "reselect_tariffs": "Volver a seleccionar tarifas"
+      },
+      "data": {
+        "steps": {
+          "internet_line_additional_data": {
+            "already_has_service_no": "Es un alta nueva",
+            "already_has_service_yes": "Ya tengo internet",
+            "confirmation": {
+              "contracted_service": "Servicio contratado",
+              "service_address": "Dirección del servicio",
+              "title": "Servicio seleccionado",
+              "phonenumber": "Número de teléfono"
+            },
+            "internet_without_phone": "Tengo internet sin fijo",
+            "phone_number": "Número de teléfono",
+            "previous_broadband_service": "¿Cuál es tu servicio actual?",
+            "previous_provider": "¿Cuál es tu operadora actual?",
+            "service_address": "Dirección",
+            "title": "Datos 1a linea de internet",
+            "alert_hasnt_landline_fiber": "Estás contratando un servicio de internet sin fijo. Desde Somos Conexión no podemos solicitar la baja a tu anterior operadora. Una vez instalada la fibra con nosotros, contacta con tu operadora actual para solicitar la baja.",
+            "alert_hasnt_landline_4G": "Estás contratando un servicio de internet sin fijo. Desde Somos Conexión no podemos solicitar la baja a tu anterior operadora. Una vez instalado el router 4G con nosotros, contacta con tu operadora actual para solicitar la baja."
+          },
+          "mobile_line_additional_data": {
+            "confirmation": {
+              "current_contract_type": "Tipo de línea actual",
+              "other_person_fullname": "Titular de la línea",
+              "other_person_vat": "DNI del titular",
+              "phonenumber": "Número de teléfono",
+              "previous_provider": "Operadora actual",
+              "service_address": "Dirección",
+              "title": "Datos de contacto"
+            },
+            "delivery_address": "Dirección de envío de la SIM",
+            "description": "",
+            "has_sim_card": "Ya tengo la SIM de Somos Conexión",
+            "icc": "Introduce el código de la SIM",
+            "icc_help_text": "El código de la SIM es el número que aparece impreso sobre tu tarjeta",
+            "is_prepaid": "Es un teléfono de prepago",
+            "keep_number_no": "Número de teléfono nuevo",
+            "keep_number_yes": "Conservar número de teléfono",
+            "other_person": "El titular actual es otra persona",
+            "phone_number": "Número de teléfono",
+            "previous_owner_has_sim_card": "Ya tiene la SIM de Somos Conexión",
+            "previous_owner_lastname": "¿Y su 2º apellido?",
+            "previous_owner_name": "¿Cómo se llama?",
+            "previous_owner_surname": "¿Cuál es su 1er apellido?",
+            "previous_owner_vat": "Dinos su DNI",
+            "previous_provider": "¿Cuál es tu operadora actual?",
+            "title": ""
+          },
+          "payment_data": {
+            "address": "Dirección de facturación",
+            "confirmation": {
+              "address": "Dirección de facturación",
+              "iban": "IBAN",
+              "pays_in_ten_terms": "Pago en 10 plazos",
+              "service_iban": "IBAN",
+              "title": "Datos de pago del alta de socio/a"
+            },
+            "iban": "Número de IBAN",
+            "pays_in_ten_terms": "Pago en 10 plazos",
+            "title": "Pago alta de socio/a"
+          },
+          "payment_monthly_bill": {
+            "agrees_to_voluntary_contribution": "0,10€ solidarios (1,20€ anuales)",
+            "confirmation": {
+              "address": "Dirección de facturación",
+              "agrees_to_voluntary_contribution": "0,10€ solidarios (1,20€ anuales)",
+              "iban": "IBAN",
+              "title": "Datos de pago de la factura mensual"
+            },
+            "iban": "Número de IBAN",
+            "submit": "Ir a revisión de datos",
+            "title": "Factura mensual",
+            "use_same_bank_account_no": "Pagar con otra cuenta",
+            "use_same_bank_account_yes": "Pagar con la misma cuenta"
+          },
+          "shipment": {
+            "title": "Dirección de envío SIM",
+            "confirmation": {
+              "title": "Dirección de envío",
+              "delivery_address": "Dirección de envío de la SIM"
+            }
+          },
+          "payment_step_group": {
+            "title": "Datos de pago"
+          },
+          "payment_shipment_step_group": {
+            "title": "Datos de pago i envío"
+          },
+          "personal_data": {
+            "birthdate": "Fecha de nacimiento",
+            "company_name": "Nombre de la organización",
+            "confirmation": {
+              "birthdate": "Fecha de nacimiento",
+              "fullname": "Nombre y apellidos",
+              "gender": "Género",
+              "language": "Idioma",
+              "nationality": "Nacionalidad",
+              "vat": "NIF/NIE",
+              "email": "correo electrónico"
+            },
+            "description": "",
+            "email": "Tu correo electrónico",
+            "gender": "¿Cuál es tu género?",
+            "i_am_a_company": "Soy una organización",
+            "i_am_a_person": "Soy una persona",
+            "lastname": "¿Y tu 2º apellido?",
+            "name": "¿Cuál es tu nombre?",
+            "nationality": "¿Cuál es tu nacionalidad?",
+            "partner_vat_number": "NIF del socio/a que te apadrina",
+            "preferred_language": "¿Qué idioma quieres hablar?",
+            "repeat_email": "Repite el correo electrónico",
+            "phone": "Teléfono de contacto",
+            "sponsor_vat_number": "NIF del socio/a que te apadrina",
+            "sponsor_code": "Código socio/a que te apadrina",
+            "sponsor_tooltip": "Pide al/la socio/a que te apadrina que te proporcione su código de apadrinamiento. Encontrará este código en su Oficina Virtual, apartado \"{{literalSponsorScreen}}\".",
+            "surname": "¿Cuál es tu 1er apellido?",
+            "title": "Datos personales",
+            "title_logged": "Datos titular",
+            "trade_name": "Nombre comercial",
+            "vat_number": "Dinos tu DNI",
+            "vat_number_company": "NIF de la organización"
+          },
+          "personal_data_additional_data": {
+            "confirmation": {
+              "discovery_channel": "Nos has conocido"
+            },
+            "description": "",
+            "discovery_channel": "¿Cómo nos has conocido?",
+            "title": "Otra información"
+          },
+          "personal_data_step_group": {
+            "title": "Datos personales"
+          }
+        },
+        "rejected_lines_explanation": "Los siguientes productos no están disponibles para tu tipo de membresía: <0></0>"
+      },
+      "header": {
+        "call_me": "931 311 728 (L-V 10h-14h)"
+      },
+      "payment_summary": {
+        "concepts": {
+          "new_signup": "Alta de socio/a",
+          "new_sim_card": "Tarjeta SIM",
+          "new_sim_card_plural": "(Tarjeta SIM) <strong>x {{count}}</strong>"
+        },
+        "initial_bill": "Importes iniciales",
+        "monthly_bill": "Factura mensual",
+        "reason_1": "Sin permanencias",
+        "reason_2": "Cambia de tarifa cuando quieras",
+        "reason_3": "Atención personalizada",
+        "title": "Resumen"
+      },
+      "thanks": {
+        "flash_message": "Gracias de nuevo por confiar en este proyecto colectivo. ¡Esperamos que te encuentres a gusto!",
+        "now_what_body": "En, máximo, 24 horas laborables recibirás varios correos electrónicos. Uno con tu información de socio/a y uno por cada uno de los servicios contratados, en donde te explicaremos los siguientes pasos y tiempos estimados para acabar de poner en marcha este servicio. Por favor, revisa tu bandeja de spam para comprobar que no tengas ningún correo de Somos Conexión.",
+        "now_what_body_only_membership": "En, máximo, 24 horas recibirás un correo electrónico con la información de socio/a.",
+        "now_what_title": "¿Y ahora qué?",
+        "welcome": "<0>{{username}}</0>, te damos la bienvenida a Somos Conexión, la telefonía consciente. Gracias de corazón por unirte a este proyecto colectivo. ¡Esperamos que te encuentres a gusto!"
+      }
+    },
+    "tariffs": {
+      "step_confirm_modal": {
+        "first_step": {
+          "title": "¿Eres nueva en Somos Conexión?",
+          "body": "Si ya eres usuario/a de Somos Conexión, inicia sesión. Si no, haz clic en CONTRATAR."
+        },
+        "second_step": {
+          "title": "¿Quieres asociarte?",
+          "as_partner": "Asociarme (100€)",
+          "as_user": "Solo Usuario/a (0€)",
+          "body": {
+            "desktop": "<strong>Todas las personas en Somos Conexión, tanto usuarias como socias, tienen las mismas condiciones, precios y oferta de servicios.</strong> Hacerte socio/a te permitirá participar en las asambleas y otros órganos de decisión de la cooperativa. Además, <strong>si algún día te das de baja te devolveremos los 100€ de capital social.</strong>",
+            "mobile": "<strong>Usuarias y socias tienen las mismas condiciones y precios.</strong> Hacerte socio/a te permitirá participar en los órganos de decisión de la cooperativa, <strong>y si algún día te vas, te devolvemos los 100€.</strong>"
+          },
+          "body_user": "<strong>Todas las personas en Somos Conexión, tanto usuarias como socias, tienen las mismas condiciones, precios y oferta de servicios.</strong> En cambio, sólo las socias pueden participar en las asambleas y otros órganos de decisión.",
+          "body_partner": "<strong>Todas las personas en Somos Conexión, tanto usuarias como socias, tienen las mismas condiciones, precios y oferta de servicios.</strong> Hacerte socio/a te permitirá participar en las asambleas y otros órganos de decisión de la cooperativa. Además, <strong>si algún día te das de baja te devolveremos los 100€ de capital social.</strong>"
+        }
+      },
+      "confirm_modal": {
+        "already_an_user_log_in": {
+          "desktop": "Ya soy socio/a o apadrinado/a: <0>Iniciar sesión</0>",
+          "mobile": "Si ya eres usuario/a, <0>Iniciar sesión</0>"
+        },
+        "body": {
+          "desktop": "Somos Conexión es una cooperativa de consumo. Esto significa que para contratar servicios debes ser socio/a o que te apadrine un/a socio/a. <0>El alta de socio/a son 100€ que te devolveremos si algún día te das de baja</0>. Si ya eres socio/a o apadrinado/a y quieres contratar más servicios, haz clic en \"Iniciar sesión\".",
+          "mobile": "Somos Conexión es una cooperativa de consumo. Para contratar servicios debes ser socio/a o apadrinado/a. <0>El alta son 100€ que te devolveremos si te das de baja</0>. Si ya eres socio/a o apadrinado/a, pulsa \"<1>Iniciar sesión</1>\"."
+        },
+        "cta": "Asociarse y contratar",
+        "sponsored": "Un/a socio/a me apadrina",
+        "title": "Asociarse y contratar (100€)"
+      },
+      "cta_footer": "Somos Conexión es una <0>cooperativa de consumo</0>. Esto significa que para contratar servicios debes ser socio/a. <0>El alta para asociarse son 100€</0> que sirven para dar estabilidad financiera a la cooperativa. <0>Puedes pagarlos en 10 plazos y, si te das de baja, te los devolvemos.</0>",
+      "offer_modal": {
+        "content_new_customer": "La tarifa de 5 GB tiene un coste de 9€. Como también estás contratando una fibra, puede que te interese más la “línea móvil asociada a fibra”: ilimitadas + 20 GB por 8,00€",
+        "content_user_logged_already_has_fiber": "La tarifa de 5 GB tiene un coste de 9€. Como ya tienes contratada una fibra, puede que te interese más la “línea móvil asociada a fibra“: ilimitadas + 20 GB por 8,00€",
+        "content_user_logged_change_offer_tariff": "La tarifa de 20 GB que tienes contratada está asociada a tu fibra y es por eso que tiene un coste de 8€ / mes (en vez de 13€). Si cambias a otra tarifa móvil, perderás este descuento.",
+        "button_want": "Quiero la tarifa de 20 GB (8€)",
+        "button_dont_want": "Quiero la tarifa de 5 GB (9€)"
+      },
+      "internet": {
+        "add_line": "¿Quieres añadir otra linea de internet?",
+        "categories": {
+          "adsl": "ADSL sin teléfono fijo",
+          "fiber": "Fibra + Teléfono fijo",
+          "fiber_no_landline": "Fibra sin teléfono fijo",
+          "router4G": "Router 4G sin fijo"
+        },
+        "subtitle": "Escoge tu tarifa de internet",
+        "title": "Tarifas Internet",
+        "what_do_you_want": "¿Qué quieres?",
+        "what_speed": "¿Qué velocidad de conexión prefieres?"
+      },
+      "internet_and_mobile": {
+        "title": "Tarifas Internet + Móvil",
+        "sub_header": {
+          "question": "Mira aquí nuestros ",
+          "answer": "paquetes de fibra + móvil con descuento"
+        }
+      },
+      "mobile": {
+        "add_line": "¿Quieres añadir otra línea de móvil?",
+        "how_many_megabytes": "¿Cuántos MB quieres?",
+        "how_many_minutes": "¿Cuántos minutos mensuales en llamadas quieres?",
+        "info": "El <1>coste de la SIM (2,05€)</1> se añadirá a la factura inicial.<0/>¿Qué <3>tarifa</3> me conviene?",
+        "subtitle": "Crea tu tarifa de móvil",
+        "title": "Tarifas Móvil"
+      },
+      "recommended": {
+        "page_title": "Tarifas de Internet + móvil con descuento",
+        "title_pack_tariff": "Tarifas de fibra + móvil con descuento",
+        "title_shared_tariff": "Tarifes de fibra + mòbil amb dades compartides",
+        "footer_question": "¿No encuentras la tarifa que buscas? ",
+        "footer_answer": "Utiliza el constructor de tarifas",
+        "associated_fiber": "asociado a fibra",
+        "associated_fiber_plural": "asociados a fibra",
+        "filters": {
+          "labels": {
+            "mobile": "{{ count }} móvil",
+            "mobile_plural": "{{ count }} móviles"
+          },
+          "label_mobile": "¿Cuántas líneas de móvil?",
+          "label_bandWidth": "¿Qué fibra te interesa?"
+        }
+      }
+    }
+  },
+  "invoices": {
+    "description": "Aquí tienes tus facturas",
+    "download_error": "Ha ocurrido un error descargando la factura. Por favor, contáctanos en servicios@somosconexion.coop",
+    "title": "Facturas"
+  },
+  "login": {
+    "errors": {
+      "wrong_username_password": "Usuario o contraseña incorrectos."
+    },
+    "forgot_my_password": "He olvidado la contraseña o es mi primer acceso",
+    "password": "Contraseña",
+    "submit": "Iniciar sesión",
+    "username": "DNI/NIE"
+  },
+  "password_reset": {
+    "change_password": "Cambiar contraseña",
+    "complete": "La contraseña se ha actualizado",
+    "current_password_hint": "Tu contraseña actual",
+    "email_sent": "Te hemos enviado un correo electrónico con las instrucciones para cambiar la contraseña.",
+    "errors": {
+      "could_not_send_email": "Ha habido un error al intentar enviar el correo electrónico.",
+      "passwords_do_not_match": "Las contraseñas no coinciden."
+    },
+    "go_to_login": "Iniciar sesión",
+    "invalid_link": "Este enlace para cambiar la contraseña ha caducado o no es válido",
+    "more_services": "Pulsa aquí para contratar más servicios",
+    "new_password_hint": "Tu nueva contraseña",
+    "repeat_password_hint": "Repite tu nueva contraseña",
+    "request": "Introduce tu DNI y te enviaremos un enlace por correo electrónico para cambiar tu contraseña",
+    "send_email": "Enviar email"
+  },
+  "price_tag": {
+    "category": {
+      "adsl": "ADSL",
+      "fiber": "Internet Fibra + Fijo",
+      "fiber_no_landline": "Fibra sin teléfono fijo",
+      "mobile": "Móvil",
+      "4G": "Router 4G sin fijo",
+      "mobile_offer": "Móvil asociado a fibra"
+    },
+    "no_binding": "Sin permanencia",
+    "reason_1": "Somos cooperativa",
+    "reason_2": "No tenemos ánimo de lucro",
+    "reason_3": "Te atendemos en persona",
+    "vat_included": "IVA incluido",
+    "totalAmount": "IMPORTE TOTAL"
+  },
+  "profile": {
+    "change_email": {
+      "already_in_use": "Esta dirección de correo electrónico está actualmente asociada a esta cuenta.",
+      "complete": "Petición recibida. Consulta la bandeja de entrada de la dirección de correo antigua.",
+      "confirm_password": "Confirmar contraseña",
+      "current_email": "Correo electrónico",
+      "description": "Te enviaremos un enlace de confirmación a tu nuevo correo electrónico. Por favor, haz click en enlace para confirmar el cambio.",
+      "disclaimer": "Nota: Esta dirección de correo se usará para iniciar sesión en la oficina virtual y para enviarte notificaciones generales de la cooperativa (boletines, convocatorias para la asamblea...)",
+      "forgot_password": "¿Has olvidado la contraseña?",
+      "title": "Cambiar correo electrónico"
+    },
+    "change_password": {
+      "title": "Cambiar contraseña"
+    },
+    "index": {
+      "email": "Correo electrónico",
+      "password": "Contraseña"
+    },
+    "title": "Datos personales",
+    "hire_service": "Contratar nuevos servicios"
+  },
+  "request_change": {
+    "change_email": {
+      "email": "Correo electrónico",
+      "title": "Solicitar cambio de correo electrónico",
+      "your_new_email": "Tu nuevo correo electrónico"
+    },
+    "change_iban": {
+      "add_new_iban": "Añadir nuevo IBAN",
+      "use_exist_iban": "Cambia por un IBAN ya utilizado en alguno de los servicios contratados",
+      "confirm_checkbox": "Confirmo que el titular de la cuenta corriente autoriza la domiciliación de las facturas de Som Connexió.",
+      "invalid_iban": "El IBAN introducido no es válido.",
+      "title": "Solicitar cambio de IBAN",
+      "subscription_IBAN": "IBAN asociado al servicio:",
+      "subscriptions_IBAN": "IBAN asociado a todos los servicios contratados:",
+      "existing_iban": "El IBAN introducido está relacionado con otro servicio que tienes contratado en Somos Conexión. Por favor, selecciona el IBAN del listado. Ten en cuenta que el servicio que ya tiene este IBAN asignado no se verá afectado por ningún cambio.",
+      "without_effect": "El IBAN introducido ya está relacionado con el servicio"
+    },
+    "empty_state": "Todavía no tienes productos contratados.",
+    "select_scope": {
+      "all_contracts": "Todos los contratos",
+      "some_contracts": "Algunos en concreto",
+      "subtitle": "¿Qué contratos quieres cambiar?",
+      "title": "Solicitud de cambio de contratos"
+    },
+    "select_subscriptions": {
+      "title": "Selecciona los contratos que quieres cambiar."
+    },
+    "select_topic": {
+      "bank_account": "Cuenta bancaria",
+      "bank_account_description": "Cambiar la cuenta bancaria en la que se cobrará el contrato.",
+      "bank_account_disclaimer": "AVISO. Esta opción no modifica la cuenta bancaria donde se cobra el capital social. Para hacerlo, es necesario ponerse en contacto con el departamento de facturación a través de la dirección de correo <0>facturacion@somosconexion.coop</0>.",
+      "email": "Correo electrónico",
+      "email_description": "Cambiar la dirección de correo a la que se enviarán las facturas y notificaciones que afecten directamente a este servicio.",
+      "request_change": "Solicitar cambio",
+      "title": "¿Qué información deseas cambiar?"
+    },
+    "success": "Hemos recibido correctamente tu solicitud. Para confirmar el cambio, revisa tu correo electrónico y haz clic en el enlace que te hemos enviado.",
+    "title": "Cambiar datos de contrato"
+  },
+  "subscriptions": {
+    "detail": {
+      "additional_data": "Añadir datos extra",
+      "additional_data_modal": {
+        "add_package": "Añadir datos",
+        "description": "Esta ampliación de datos es solo vigente para el mes en curso. No modifica la tarifa contratada",
+        "selected_package": "Paquete seleccionado:",
+        "confirm": "Esta acción no modifica tu tarifa. Los datos extra solo serán vigentes durante el mes en curso, una vez activados ya no se podrán cancelar.",
+        "confirmation": {
+          "title": "Has realizado una solicitud de ampliación de datos con anterioridad a esta. Estamos atendiendo tu solicitud. Inténtalo de nuevo más tarde. ¡Muchas gracias!"
+        }
+      },
+      "secret_modal": {
+        "info": "Si tu móvil te está pidiendo el código PUK significa que has puesto un código PIN equivocado 3 veces. Una vez insertado el código PUK, deberás introducir un nuevo código PIN. El teléfono se desbloqueará y este será tu nuevo Código PIN a partir de ahora.<br><br>Por razones de seguridad, debes volver a entrar la contraseña de la Oficina Virtual",
+        "error": {
+          "password": "Contraseña incorrecta",
+          "message": "Introduce de nuevo tu contraseña para ver el código PUK"
+        }
+      },
+      "puk_tooltip": "Clica para consultar el código PUK",
+      "show_puk": "Ver código PUK",
+      "address": "Dirección",
+      "change_tariff": "Cambio de tarifa",
+      "change_owner": "Cambio de titular",
+      "change_tariff_modal": {
+        "change_tariff": "Cambiar tarifa",
+        "confirmation": {
+          "title": "Previamente has hecho una petición de cambio de tarifa, has pedido <0>\"{{product_name}}\"</0> ¿quieres continuar con el cambio actual y cancelar la anterior?"
+        },
+        "current_tariff": "Tu tarifa actual:",
+        "selected_tariff": "Tarifa seleccionada:",
+        "confirm": "La tarifa que solicitas se activará el día <0>{{effectiveDate}}</0>.",
+        "productName": "Móvil - <0>{{productName}}</0>"
+      },
+      "change_tariff_BA_without_landline": "Cambiar a fibra sin teléfono fijo",
+      "change_tariff_BA_with_landline": "Cambiar a fibra con teléfono fijo",
+      "change_tariff_BA_modal": {
+        "fiber_title_100": "Cambio a fibra 100Mb sin fijo",
+        "fiber_title": "Cambio a fibra 300Mb sin fijo",
+        "ADSL_title": "Cambio de ADSL a fibra 300Mb sin fijo",
+        "fiber_description_a_100": "En la factura del próximo mes ya tendrás vigente el cambio de producto a fibra 100Mb sin fijo por 31,5€ al mes (IVA incl.).",
+        "fiber_description_a": "En la factura del próximo mes ya tendrás vigente el cambio de producto a fibra 300Mb sin fijo por 31,5€ al mes (IVA incl.).",
+        "fiber_description_b": "Este cambio no conlleva la visita del servicio técnico a su domicilio. Si más adelante deseas volver a contratar el servicio con fijo, escríbenos a <0>servicios@somosconexion.coop</0>.",
+        "ADSL_description_a": "El siguiente paso será que te contacten del servicio técnico para concretar la cita e instalar la nueva fibra.",
+        "ADSL_description_b": "Una vez instalada la fibra, tramitaremos la baja automática del ADSL y se iniciará la facturación de la fibra 300Mb sin fijo por 31,5€ al mes (IVA incl.). Si tienes alguna duda, escríbenos a <0>servicios@somosconexion.coop</0>.",
+        "fiber_confirm": "En los próximos días el fijo quedará inactivo y el cambio de precio tendrá efecto inmediato.",
+        "ADSL_confirm": "Una vez la fibra quede instalada, el ADSL quedará inactivo",
+        "landLine": {
+          "ADSL_confirm": "Una vez la fibra quede instalada, el ADSL quedará inactivo",
+          "ADSL_title": "Cambio de ADSL a fibra 300Mb con fijo",
+          "ADSL_description_a": "El siguiente paso será que te contacten del servicio técnico para concretar la cita e instalar la nueva fibra.",
+          "ADSL_description_b": "Una vez instalada la fibra, tramitaremos la baja automática del ADSL y se iniciará la facturación de la fibra 300Mb con fijo por 34€ al mes (IVA incl.). Si tienes alguna duda, escríbenos a <0>servicios@somosconexion.coop</0>."
+        }
+      },
+      "email": "Correo electrónico",
+      "history": "Histórico del servicio",
+      "iban": "IBAN",
+      "name": "Nombre del titular",
+      "product_picker": {
+        "minutes": {
+          "n_minutes": "{{count}} minutos",
+          "no_minutes": "Sin minutos",
+          "unlimited_minutes": "Minutos ilimitados"
+        }
+      },
+      "vat_number": "DNI/NIE",
+      "summer_promotion": "Desde el 15 de junio hasta el 30 de septiembre, las líneas con tarifa <strong>Llamadas Ilimitades + 20GB y superiores</strong> dispondrán de 30GB extras mensuales.<br/><br/>No es necesario realizar ninguna operación para activar esta promo.<br/><br/>Este tipo de promociones no encaja con nuestros valores y seguimos promoviendo el consumo consciente.<br/><br/>No añadas datos extra si no has recibido el mensaje conforme los has agotado.<br/><br/>Si detectas una bajada en la velocidad de conexión, y no has recibido el aviso de Datos Agotados, contacta con <0>servicios@somosconexio.coop</0> y revisaremos tu caso."
+    },
+    "list": {
+      "and_other_services": "y otro servicio más",
+      "and_other_services_plural": "y {{count}} servicios mas"
+    },
+    "type": {
+      "adsl": "ADSL",
+      "fiber": "Fibra",
+      "mobile": "Móvil",
+      "broadband": "Banda Ancha"
+    },
+    "modify_service": "modificar servicio",
+    "more_info": "detalle servicio",
+    "pack_warning_modal": {
+      "warning_title": "Tu tarifa está bonificada",
+      "warning_body": "La tarifa de {{planSize}} que tienes contratada está asociada a tu fibra, motivo por el que tiene un coste de {{currentPrice}} (en vez de {{originalPrice}}). Si decides cambiar a otra tarifa móvil, perderás este descuento.",
+      "refuse_pack_change": "Mantener la tarifa de {{planSize}}",
+      "confirm_pack_change": "Cambiar"
+    }
+  },
+  "summary": {
+    "title": "Servicios contratados"
+  },
+  "urls": {
+    "more_info": {
+      "adsl": "",
+      "fiber": "",
+      "mobile": ""
+    },
+    "tariffs": {
+      "internet_and_phone": "https://somosconexion.coop/tarifas-internet/",
+      "mobile": "https://somosconexion.coop/tarifas-movil/",
+      "mobile_internet_and_phone": "https://somosconexion.coop/tarifas-internet-movil/"
+    },
+    "terms": "https://somosconexion.coop/condiciones-generales/",
+    "privacy": "https://somosconexion.coop/condiciones-generales/#politicaprivacidad"
+  },
+  "sponsor": {
+    "title": "Apadrina",
+    "description": "Aquí te explicamos como apadrinar",
+    "sponsoreds": "Apadrinadas",
+    "have_got": "Tienes {{sponseesNumber}} de {{sponseesMax}}",
+    "sponsoreds_persons": "personas apadrinadas",
+    "there_are_left_plural": "¡Todavía puedes apadrinar a {{count}} personas!",
+    "there_are_left": "¡Todavía puedes apadrinar a {{count}} persona!",
+    "there_arent_left": "Ya tienes todos tus apadrinamientos cubiertos. ¡ Muy bien !",
+    "message_messenger_service": "¡Hola! Te quiero apadrinar en Somos Conexión, la telefonía consciente. \n \nLas personas apadrinadas pueden contratar servicios de móvil, fibra y fijo sin necesidad de pagar el alta de asociado. Si te interesa, además de mi DNI, deberás utilizar el código \"{{codeToSponsor}}\" cuando hagas la contratación en {{urlJoinSponsored}}.",
+    "steps": {
+      "first": {
+        "description": "Para apadrinar a una persona, tienes que compartir con ella la siguiente información:",
+        "first_action": "<strong>El enlace</strong> para acceder a los servicios: <0><i>{{urlJoinSponsored}}</i></0>",
+        "second_action": "Tú número de DNI/NIE (o de NIF si eres una empresa)",
+        "third_action": "El siguiente <strong>código</strong>:",
+        "code_to_sponsor": "Código para apadrinar",
+        "small_print": "*Comparte este código solo con las personas que deseas apadrinar (no lo compartas en redes sociales).",
+        "code_copied": "Código apadrinamiento copiado",
+        "url_copied": "Enlace apadrinamiento copiado",
+        "share_via_social_media": "También puedes compartir el código y el enlace vía:"
+      },
+      "second": {
+        "description": "La persona apadrinada debe seleccionar la opción \"<0>{{literalPartnerSponsorsMe}}</0>\" en el proceso de contractación"
+      }
+    }
+  },
+  "share_data": {
+    "title": "Datos Compartidos",
+    "description": "Tarifas bonificadas en las cuales a una fibra se le asocian 2 o 3 móviles que comparten un bono mensual de 50 gigas de datos.",
+    "select": "Selecciona los móviles i la fibra para compartir datos:",
+    "combine": "Combina",
+    "contracts_sharing": "Tus tarifas de datos compartidos:",
+    "stop_sharing": "dejar de compartir",
+    "advice": "No tienes contratados los suficientes servicios para activar los datos compartidos",
+    "advice_explain": "Necesitas un mínimo de 1 servicio de fibra y 2 móviles activos y disponibles (que no formen parte ya de un paquete de datos compartidos). Actualmente tienes:",
+    "advice_advice": "*Una vez tengas activos los nuevos servicios contratados, vuelve a esta página para agruparlos en datos compartidos",
+    "advice_have": "Servicios: <strong>{{n_fibers}} fibras</strong> y <strong>{{n_mobiles}} móviles</strong> activos y diponibles",
+    "contract": {
+      "2_mob_desc": "Las líneas <strong>{{mob1}} y {{mob2}}</strong> están compartiendo 50 GB de datos y están asociadas a la <strong>{{fiber}} de la dirección {{address}}</strong>",
+      "3_mob_desc": "Las líneas <strong>{{mob1}}, {{mob2}} y {{mob3}}</strong> están compartiendo 50 GB de datos y están asociadas a la <strong>{{fiber}} de la dirección {{address}}</strong>"
+    },
+    "mobiles": {
+      "description": "Selecciona cuáles de tus líneas compartirán 50 GB de datos y haz clic en continuar (puedes seleccionar 2 o 3 líneas).",
+      "advice": "*El cambio será efectivo el próximo mes",
+      "price": {
+        "advice": "*Selecciona una línea más",
+        "total": "Móviles con 50 GB datos compartidos"
+      }
+    },
+    "fibers": {
+      "description": "Selecciona a que fibra quedaran vinculadas estas líneas con datos compartidos"
+    },
+    "ends": {
+      "how_many_mobiles": "Línias compartiendo 50GB de datos:",
+      "fiber_linked": "Vinculadas a la fibra:",
+      "total_price": "Precio Final",
+      "mobile_descripiton": "línias con 50 GB de datos compartidos",
+      "confirmation": {
+        "title": "Previamente has hecho una petición de cambio de tarifa:",
+        "title_plural": "Previamente has hecho {{count}} peticiónes de cambio de tarifa:",
+        "line": "Línea <strong>{{mob}}</strong> cambio a {{prod}}",
+        "advice": "Si agrupas esta línea a datos compartidos perderás el cambio que habías hecho. ¿Quieres continuar con el cambio actual y cancelar el anterior?",
+        "advice_plural": "Si agrupas estas líneas a datos compartidos perderás los cambios que habías hecho. ¿Quieres continuar con los cambios actuales y cancelar los anteriores?"
+      }
+    },
+    "succes": {
+      "title": "Cambio realizado correctamente",
+      "subtitle": "La nueva tarifa de 50 GB de datos compartidos se activará el siguiente mes"
+    },
+    "header": {
+      "steps": {
+        "mobiles": "Móviles",
+        "fibers": "Fibras",
+        "end": "Finaliza"
+      }
+    },
+    "limit_data": {
+      "title": "Limitar Datos Compartidos",
+      "limit_to": "Limitado a {{bytes}}",
+      "advice": "Puedes limitar la cantidad de datos que puede consumir cada uno de los móviles que comparten 50GB",
+      "data_amount": "50GB compartidos entre:",
+      "data_sahred_line": "Linea",
+      "data_shared_subtitle": "Datos compartidos",
+      "data_shared_none": "Sin límite",
+      "modal": {
+        "title": "Limitar los datos que puede consumir la linea {{mobile_line}}",
+        "data_amount": "50GB compartidos"
+      },
+      "log": {
+        "success": {
+          "limit_applied": "Hemos recibido correctamente tu petición de limitación de consumo. Se aplicará en los próximos 10 minutos. Una vez aplicada, la verás reflejada en la oficina virtual."
+        },
+        "error": {
+          "limit_applied": "Estamos teniendo problemas con la petición de limitación de consumo. Por favor, prueba de nuevo en unos minutos."
+        }
+      }
+    }
+  }
+}

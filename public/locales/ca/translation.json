@@ -1,0 +1,801 @@
+{
+  "common": {
+    "back_to_home": "Tornar a l'inici",
+    "change": "Canviar",
+    "close": "Tancar",
+    "confirm": "Confirmar",
+    "continue": "Continuar",
+    "continue_using": "Continuar utilitzant",
+    "continue_hire": "Continuar la contractació",
+    "continue_ov": "Tornar a l'oficina virtual",
+    "contract": "Contractar",
+    "download": "Descarregar",
+    "accept": "Acceptar",
+    "edit": "Editar",
+    "cancel": "Cancel·lar",
+    "assistance_email_message": "Si necessites aclarir cap dubte, escriu-nos a <0>serveis@somconnexio.coop</0>.",
+    "assistance_email": "serveis@somconnexio.coop",
+    "session_expired": "La sessió ha caducat. Si us plau, torna a iniciar sessió.",
+    "session_idle": "Fa temps que estàs inactiu. En breu es tancarà la sessió.",
+    "session_up": "S'ha detectat nova sessió oberta a l'oficina virtual en una altra finestra. Per continuar el procés de contractació, fes clic a 'Continuar la contractació'.",
+    "cooperator_register_number": "Número de soci - {{cooperatorRegisterNumber}}",
+    "important": "IMPORTANT",
+    "line": "Línia",
+    "with": "amb",
+    "errors": {
+      "invalid_email_address": "Adreça de correu electrònic no vàlida.",
+      "request_failed": "S'ha produït un error processant la teva petició. Si us plau, prova de nou.",
+      "request_failed_maintenance": "Aquesta funció no està disponible temporalment per tasques de manteniment dels nostres sistemes. Torna-ho a provar a partir de les 21h. Si l'acció que has de fer és urgent, pots trucar-nos al telèfon d'emergències 693 761 723.",
+      "unknown_mobile_phone": "Aquest mòbil no comparteix dades",
+      "validation": {
+        "match_date_format": "Format de la data: DD-MM-AAAA",
+        "match_email_format": "Correu electrònic no vàlid",
+        "match_iban_format": "L'IBAN no és vàlid",
+        "match_vat_format": "DNI/NIE no vàlid",
+        "must_match_other": "No coincideixen",
+        "must_not_be": "Ja està en ús: {{value}}",
+        "vat_number_in_use": "Aquest DNI/NIE ja està en ús",
+        "required": "Omple aquest camp",
+        "required_last_name": "Si no tens 2n cognom, omple amb un guió (-)",
+        "sponsor_vat_or_code_not_valid": "DNI o codi de soci/a no valid",
+        "sponsor_vat_full_sponsoreds": "Aquesta persona sòcia ja ha assolit el màxim nombre de persones apadrinades",
+        "history_of_services_empty": "No s'han trobat dades",
+        "invalid_date_format": "La data no és vàlida",
+        "underaged": "El titular del contracte o persona socia ha de ser major d'edat (18 anys)",
+        "invalid_phone": "El telèfon deu ser fix o mòbil",
+        "invalid_mobile_number": "El número de telèfon deu ser d'un mòbil",
+        "invalid_landline_number": "El número de telèfon deu ser d'un fix",
+        "existing_phone": "Aquest número de telèfon ja té contracte amb Som Connexió"
+      }
+    },
+    "euros": "€",
+    "euros_per_month": "€/mes",
+    "finish": "Finalitzar",
+    "go_back": "Tornar",
+    "loading": "Carregant...",
+    "login": "Iniciar sessió",
+    "logout": "Tancar sessió",
+    "minutes": {
+      "n_minutes": "{{count}} min",
+      "no_minutes": "0 min",
+      "unlimited_minutes": "il·limitades"
+    },
+    "no": "no",
+    "petition_received_with_email_confirmation": "Sol·licitud enviada correctament. Rebràs un correu de confirmació a la teva adreça de correu electrònic.",
+    "select": "Seleccionar",
+    "start_again": "Començar de nou",
+    "thanks": "Gràcies!",
+    "retry": "Volver a intentar",
+    "total": "Total",
+    "vat_included": "IVA inclòs",
+    "welcome": "Hola, {{name}}",
+    "yes": "sí"
+  },
+  "banned_actions": {
+    "message_new_service_banned": "Ho sentim però no és possible realitzar aquesta operació. Per a més informació, contacta amb nosaltres a: <0>serveis@somconnexio.coop</0>"
+  },
+  "confirm_email": {
+    "complete": "Correu electrònic actualitzat correctament.",
+    "go_to_app": "Anar a l'Oficina Virtual",
+    "invalid_or_expired_token": "L'enllaç de confirmació ha caducat o no és vàlid."
+  },
+  "summer_promotion": {
+    "title": "promoció estiu",
+    "message_unlimited_subs": "De juliol a setembre ampliem 20 GB/mes (sense cost afegit) a les tarifes de mòbil - il·limitades <strong>5 GB, 10 GB, 20 GB, 23 GB, 30 GB, 50 GB, 100 GB, 150 GB</strong> a causa de la pujada automàtica de les operadores de les quals depenem. <strong>No és necessari que realitzis cap operació per a activar la promo.</strong>",
+    "sub_message": "Aquest tipus de promocions no encaixa amb els nostres valors i continuem promovent un consum conscient. <strong>No augmentis les teves dades extres si no has rebut el missatge conforme les has esgotades o detectes una baixada en la velocitat de la teva connexió!</strong>",
+    "remember": "recorda"
+  },
+  "confirm_change": {
+    "complete": "Gràcies per confirmar. En breus s'aplicarà el canvi demanat.",
+    "go_to_app": "Anar a l'Oficina Virtual",
+    "invalid_or_expired_token": "L'enllaç de confirmació ha caducat o no és vàlid."
+  },
+  "funnel": {
+    "address_picker": {
+      "add_new": "Afegir una nova adreça",
+      "city": "Localitat",
+      "door": "Porta",
+      "flat": "Pis",
+      "no_results": "Sense resultats",
+      "number": "Número",
+      "other": "Altres (Escala, bloc, ...)",
+      "state": "Província",
+      "street_hint": "exacta (carrer, número, pis, porta ...)",
+      "zip_code": "Codi postal"
+    },
+    "payment_method_picker": {
+      "add_new": "Afegir nou IBAN"
+    },
+    "header": {
+      "body": "",
+      "steps": {
+        "confirm": "Revisió",
+        "data": "Dades",
+        "payment": "Pagament"
+      },
+      "title": "Omple les dades de cada apartat"
+    },
+    "join": {
+      "authenticated": {
+        "title": "Escull quins serveis vols contractar",
+        "subtitle": "Consulta les nostres tarifes"
+      },
+      "sponsored": {
+        "title": "Un amic o amiga et vol apadrinar a Som Connexió",
+        "subtitle": "Per contractar serveis, necessitaràs el DNI i codi de la persona que t’apadrina",
+        "text_1": "Som Connexió és una telefonia diferent en la qual la majoria d’usuàries som sòcies. Els apadrinaments permeten que familiars i amistats d’una sòcia puguin contractar serveis sense haver de pagar l’alta (100€ de capital social).",
+        "text_2": "Escull quins serveis vols contractar:"
+      },
+      "self_agreement": {
+        "title": "Apadrinament amb Som Connexió, prova pilot",
+        "subtitle": "Contracta serveis sense pagar el capital social",
+        "text_1": "Som Connexió és una telefonia diferent en la qual la majoria d’usuàries som sòcies. Actualment, estem fent una prova pilot on la cooperativa apadrina aquelles persones que no poden fer-se càrrec del capital social (100€) i no coneixen cap sòcia que els pugui apadrinar.",
+        "text_2": "Si vols participar en aquesta prova pilot, escull els serveis que vulguis contractar:",
+        "SC": "Som Connexió"
+      },
+      "coop_agreement": {
+        "title": "Conveni cooperatiu {{coopAgreement}} - Som Connexió",
+        "subtitle": "Aprofita el conveni i contracta qualsevol servei de Som Connexió sense pagar l’alta de sòcia",
+        "text_1": "Som Connexió és una telefonia diferent en la qual la majoria d’usuàries som sòcies. El conveni cooperatiu amb {{coopAgreement}}, permet que les sòcies d’aquesta entitat puguin contractar serveis sense haver de pagar l’alta (100€ de capital social).",
+        "text_2": "Escull quins serveis vols contractar:",
+        "MO": "Opcions de Consum Responsable",
+        "MAS": "Mercado Social de Madrid",
+        "SC": "Som Connexió",
+        "PC": "Xarxa de Pols Cooperatius",
+        "ES": "Economat Social",
+        "ER": "El Rodal",
+        "EC": "Esplais Catalans",
+        "TN": "Laboratori d’Abastiment Cooperatiu",
+        "RG": "Rocaguinarda SCCL",
+        "FEE": "Federació Coordinadora d'Espais i Entitats dels Països Catalans",
+        "FE": "Fundació Cívica Esperanzah"
+      },
+      "anonymous": {
+        "i_have_an_account": "Ja sóc soci/a o apadrinat/da:",
+        "make_an_account": "Fer-me soci/a i contractar",
+        "only_mobile": "(només mòbil)",
+        "partner_sponsors_me": "Un/a soci/a m’apadrina",
+        "subtitle": "L'alta per associar-se són 100€ retornables",
+        "text_1": "Som Connexió és una telefonia diferent en la qual les usuàries som sòcies. Els 100€ de capital social serveixen per donar estabilitat financera i independència econòmica a la cooperativa.",
+        "text_2": "Pots pagar-los en 10 terminis i si algun dia et dones de baixa, te'ls tornem.",
+        "title": "Associa't i contracta en el mateix procés"
+      },
+      "common": {
+        "mobile": "Només mòbil",
+        "internet": "Només internet",
+        "subtitle_internet": "Fibra (amb o sense Fix) o 4G (sense Fix)",
+        "subtitle_internet_mobile": "Fibra (amb o sense Fix)",
+        "both": "Mòbil + internet",
+        "button": "Veure tarifes"
+      }
+    },
+    "product_picker": {
+      "only_member": {
+        "description": "Ja contractaré més endavant",
+        "subtitle": "Només soci/a",
+        "title": "També pots fer-te soci/a ara i contractar més endavant"
+      },
+      "product_categories": {
+        "internet_and_phone": {
+          "how_many": "Quantes línies d’internet vols?",
+          "more_info": "Més informació de la <1>Fibra</1>",
+          "subtitle": "Fibra (amb Fix o sense)",
+          "title": "Només Internet",
+          "want_more": "Vols afegir més línies d’internet?"
+        },
+        "mobile": {
+          "how_many": "Quantes línies de mòbil vols?",
+          "more_info": "Més informació del <0>Mòbil</0>",
+          "title": "Només Mòbil"
+        },
+        "mobile_internet_and_phone": {
+          "more_info": "Més informació del <0>Mòbil</0> o la <2>Fibra</2>",
+          "subtitle": "Fibra (amb Fix o sense)",
+          "title": "Mòbil + Internet"
+        }
+      },
+      "subtitle": "Consulta les nostres tarifes d’<0>Internet</0>, <1>Mòbil</1> o <2>Internet + Mòbil</2>.",
+      "title": "Escull quins serveis vols contractar"
+    },
+    "selections": {
+      "gender": {
+        "female": "Dona",
+        "male": "Home",
+        "other": "Altre"
+      },
+      "lang": {
+        "ca": "Català",
+        "es": "Castellano"
+      },
+      "previous_broadband_service": {
+        "adsl": "ADSL",
+        "fiber": "Fibra"
+      },
+      "previous_mobile_service": {
+        "contract": "Contracte",
+        "prepaid": "Prepagament"
+      }
+    },
+    "shared": {
+      "advice_offer_modal": {
+        "title": "Si canvies la tarifa d'internet a una tecnologia que no sigui Fibra, tingues en compte que la línia mòbil de 20 GB deixarà d’estar associada a la fibra i perdràs el descompte.",
+        "accept": "Continuar sense oferta",
+        "decline": "D'acord, em quedo amb la fibra"
+      },
+      "additional_info": "Informació addicional",
+      "category": {
+        "internet": "Internet (Fibra o 4G)",
+        "mobile": "Mòbil",
+        "internet_shared_pack": "Internet (Fibra)",
+        "mobile_shared_pack": "Mòbil Dades Compartides"
+      },
+      "nth_internet_line": "{{ n }} línia internet (Fibra o ADSL)",
+      "nth_mobile_line": "{{ n }} línia de mòbil",
+      "nth_internet_shared_pack_line": "{{ n }} línia internet (Fibra)",
+      "nth_mobile_shared_pack_line": "{{ n }} línia de mòbil Dades Compartides",
+      "remove_service": "Eliminar servei"
+    },
+    "signup": {
+      "confirm": {
+        "accept_terms": "He llegit i accepto <0>les condicions legals i del servei</0>",
+        "privacy_terms": "He llegit i accepto <0>la política de privadesa</0>",
+        "must_accept_terms": "Has d'acceptar les condicions",
+        "reselect_tariffs": "Tornar a seleccionar tarifes"
+      },
+      "data": {
+        "steps": {
+          "internet_line_additional_data": {
+            "already_has_service_no": "És una alta nova",
+            "already_has_service_yes": "Ja tinc servei de banda ampla",
+            "confirmation": {
+              "contracted_service": "Servei contractat",
+              "service_address": "Adreça del servei",
+              "title": "Servei seleccionat",
+              "phonenumber": "Número de telèfon"
+            },
+            "internet_without_phone": "Tinc internet sense fix",
+            "phone_number": "Número de telèfon",
+            "previous_broadband_service": "Quin és el teu servei actual?",
+            "previous_provider": "Quina és la teva operadora actual?",
+            "service_address": "Adreça",
+            "title": "Dades 1a línia d'internet",
+            "alert_hasnt_landline_fiber": "Estàs contractant un servei d'internet sense fix. Des de Som Connexió no podrem sol·licitar la baixa a l'anterior operador. Un cop instal·lada la fibra amb nosaltres, caldrà que contactis amb el teu operador actual per sol·licitar la baixa.",
+            "alert_hasnt_landline_4G": "Estàs contractant un servei d'internet sense fix. Des de Som Connexió no podrem sol·licitar la baixa a l'anterior operador. Un cop instal·lat el router 4G amb nosaltres, caldrà que contactis amb el teu operador actual per sol·licitar la baixa."
+          },
+          "mobile_line_additional_data": {
+            "confirmation": {
+              "current_contract_type": "Tipus de línia actual",
+              "other_person_fullname": "Titular de la línia",
+              "other_person_vat": "DNI del titular",
+              "phonenumber": "Número de telèfon",
+              "previous_provider": "Operadora actual",
+              "service_address": "Adreça d’enviament de la SIM",
+              "title": "Dades de contacte"
+            },
+            "delivery_address": "Adreça d’enviament de la SIM",
+            "description": "",
+            "has_sim_card": "Ja tinc la SIM de Som Connexió",
+            "icc": "Introdueix el codi de la SIM",
+            "icc_help_text": "El codi de la SIM és el que apareix imprès sobre la teva targeta.",
+            "is_prepaid": "És un telèfon de prepagament",
+            "keep_number_no": "Número de telèfon nou",
+            "keep_number_yes": "Conservar número de telèfon",
+            "other_person": "El titular actual és una altra persona",
+            "phone_number": "Número de telèfon",
+            "previous_owner_has_sim_card": "Ja té la SIM de Som Connexió",
+            "previous_owner_lastname": "I el seu 2n cognom?",
+            "previous_owner_name": "Com es diu?",
+            "previous_owner_surname": "Quin és el seu 1r cognom?",
+            "previous_owner_vat": "Diga'ns el seu DNI",
+            "previous_provider": "Quina és la teva operadora actual?",
+            "title": ""
+          },
+          "payment_data": {
+            "address": "Adreça de facturació",
+            "confirmation": {
+              "address": "Adreça de facturació",
+              "iban": "IBAN",
+              "pays_in_ten_terms": "Pagament en 10 terminis",
+              "service_iban": "IBAN",
+              "title": "Dades de pagament de l’alta de soci/a"
+            },
+            "iban": "Número d’IBAN",
+            "pays_in_ten_terms": "Pagament en 10 terminis",
+            "title": "Pagament alta de soci/a"
+          },
+          "payment_monthly_bill": {
+            "agrees_to_voluntary_contribution": "0,10€ solidaris (1,20€ anuals)",
+            "confirmation": {
+              "address": "Adreça de facturació",
+              "agrees_to_voluntary_contribution": "0,10€ solidaris (1,20€ anuals)",
+              "iban": "IBAN",
+              "title": "Dades de pagament de la factura mensual"
+            },
+            "iban": "Número d’IBAN",
+            "submit": "Anar a revisió de dades",
+            "title": "Factura mensual",
+            "use_same_bank_account_no": "Pagar amb un altre compte",
+            "use_same_bank_account_yes": "Pagar amb el mateix compte bancari"
+          },
+          "shipment": {
+            "title": "Adreça d’enviament SIM",
+            "confirmation": {
+              "title": "Adreça d’enviament",
+              "delivery_address": "Adreça d’enviament de la SIM"
+            }
+          },
+          "payment_step_group": {
+            "title": "Dades de pagament"
+          },
+          "payment_shipment_step_group": {
+            "title": "Dades de pagament i enviament"
+          },
+          "personal_data": {
+            "birthdate": "Data de naixement?",
+            "company_name": "Nom de l’organització",
+            "confirmation": {
+              "birthdate": "Data de naixement",
+              "fullname": "Nom i cognoms",
+              "gender": "Gènere",
+              "language": "Idioma",
+              "nationality": "Nacionalitat",
+              "vat": "NIF/NIE",
+              "email": "correu electrònic"
+            },
+            "description": "",
+            "email": "El teu correu electrònic",
+            "gender": "Quin és el teu gènere?",
+            "i_am_a_company": "Sóc una organització",
+            "i_am_a_person": "Sóc una persona",
+            "lastname": "I el teu 2n cognom?",
+            "name": "Com et dius?",
+            "nationality": "Quina és la teva nacionalitat",
+            "partner_vat_number": "NIF del soci/a que t'apadrina",
+            "preferred_language": "Quin idioma vols parlar?",
+            "repeat_email": "Repeteix el correu electrònic",
+            "phone": "Telefon de contacte",
+            "sponsor_vat_number": "NIF del soci/a que t'apadrina",
+            "sponsor_code": "Codi soci/a que t'apadrina",
+            "sponsor_tooltip": "Demana al/la soci/a que t'apadrina que et doni el seu codi d'apadrinament. Trobarà aquest codi a la seva Oficina Virtual, apartat \"{{literalSponsorScreen}}\".",
+            "surname": "Quin és el teu 1r cognom?",
+            "title": "Dades personals",
+            "title_logged": "Dades titular",
+            "trade_name": "Nom comercial",
+            "vat_number": "Diga'ns el teu DNI",
+            "vat_number_company": "NIF de l'organització"
+          },
+          "personal_data_additional_data": {
+            "confirmation": {
+              "discovery_channel": "Ens has conegut"
+            },
+            "description": "",
+            "discovery_channel": "Com ens has conegut?",
+            "title": "Altra informació"
+          },
+          "personal_data_step_group": {
+            "title": "Dades personals"
+          },
+          "rejected_lines_explanation": "Els següents productes no estan disponibles pel teu tipus de filiació: <0></0>"
+        }
+      },
+      "header": {
+        "call_me": "931 311 728 (Dl-Dv 10h-14h)"
+      },
+      "payment_summary": {
+        "concepts": {
+          "new_signup": "Alta de soci/a",
+          "new_sim_card": "Tarjeta SIM",
+          "new_sim_card_plural": "(Tarjeta SIM) <strong>x {{count}}</strong>"
+        },
+        "initial_bill": "Imports inicials",
+        "monthly_bill": "Factura mensual",
+        "reason_1": "Sense permanències",
+        "reason_2": "Canvia de tarifa quan vulguis",
+        "reason_3": "Atenció personalitzada",
+        "title": "Resum"
+      },
+      "thanks": {
+        "flash_message": "Gràcies de nou per confiar en aquest projecte col·lectiu. Esperem que t’hi trobis a gust!",
+        "now_what_body": "En, màxim, 24 hores laborables rebràs diversos correus electrònics. Un amb la teva informació de soci/a i un per cada un dels serveis contractats, on t’explicarem les següents passes i els temps estimats per acabar de posar en marxa aquest servei. Si us plau, revisa la teva safata de correu brossa per comprovar que no tinguis cap correu de Som Connexió.\n",
+        "now_what_title": "I ara què?",
+        "now_what_body_only_membership": "En, màxim, 24 hores laborables rebràs un correu electrònic amb la informació de soci/a",
+        "welcome": "<0>{{username}}</0>, et donem la benvinguda a Som Connexió, la telefonia conscient. Gràcies de tot cor per unir-te a aquest projecte col·lectiu. Esperem que t'hi trobis a gust!"
+      }
+    },
+    "tariffs": {
+      "step_confirm_modal": {
+        "first_step": {
+          "title": "Ets nova a Som Connexió?",
+          "body": "Sí ja ets usuari/a de Som Connexió, inicia sessió. Si no, fes clic a CONTRACTAR."
+        },
+        "second_step": {
+          "title": "Vols associar-te?",
+          "as_partner": "Associar-me (100€)",
+          "as_user": "Només Usuari/a  (0€)",
+          "body": {
+            "desktop": "<strong>Totes les persones a Som Connexió, tant usuàries com sòcies, tenen les mateixes condicions, preus i oferta de serveis.</strong> Fer-te soci/a et permetrà participar en les assemblees i altres òrgans de decisió de la cooperativa. A més, <strong>si algun dia et dones de baixa et retornarem els 100€ de capital social.</strong>",
+            "mobile": "<strong>Usuàries i sòcies tenen les mateixes condicions i preus.</strong> Fer-te soci/a et permetrà participar en els òrgans de decisió de la cooperativa, <strong>i si algun dia marxes, et tornem els 100€.</strong>"
+          },
+          "body_user": "<strong>Totes les persones a Som Connexió, tant usuàries com sòcies, tenen les mateixes condicions, preus i oferta de serveis.</strong> En canvi, només les sòcies poden participar en les assemblees i altres òrgans de decisió.",
+          "body_partner": "<strong>Totes les persones a Som Connexió, tant usuàries com sòcies, tenen les mateixes condicions, preus i oferta de serveis.</strong> Fer-te soci/a et permetrà participar en les assemblees i altres òrgans de decisió de la cooperativa. A més, <strong>si algun dia et dones de baixa et retornarem els 100€ de capital social.</strong>"
+        }
+      },
+      "confirm_modal": {
+        "already_an_user_log_in": {
+          "desktop": "Ja sóc soci/a o apadrinat/da: <0>Iniciar sessió</0>",
+          "mobile": "Si ja ets usuari/a, <0>Iniciar sessió</0>"
+        },
+        "body": {
+          "desktop": "Som Connexió és una cooperativa de consum. Això significa que per contractar serveis has de ser soci/a o que t'apadrini un/a soci/a. <0>L'alta de soci/a són 100€ que et retornarem si algun dia et dones de baixa</0>. Si ja ets soci/a o apadrinat/da i vols contractar més serveis, fes clic a \"Iniciar sessió\".",
+          "mobile": "Som Connexió és una cooperativa de consum. Per contractar serveis has de ser soci/a o apadrinat/da. <0>L'alta són 100€ que et tornem si et dones de baixa</0>. Si ja ets soci/a o apadrinat/da, fes clic a \"<1>Iniciar sesión</1>\"."
+        },
+        "cta": "Associar-se i contractar",
+        "sponsored": "Un/a soci/a m’apadrina",
+        "title": "Associar-se i contractar (100€)"
+      },
+      "cta_footer": "Som Connexió és una <0>cooperativa de consum</0>. Això significa que per contractar serveis has de ser soci/a. <0>L’alta per associar-se són 100€</0> que serveixen per donar estabilitat financera a la cooperativa. <0>Pots pagar-los en 10 terminis i, si et dónes de baixa, te'ls tornem.</0>",
+      "offer_modal": {
+        "content_new_customer": "La tarifa de 5 GB té un cost de 9€. Com que també estàs contractant una fibra, potser t’interessa més la “línia mòbil associada a fibra”: il·limitades + 20 GB per 8,00€.",
+        "content_user_logged_already_has_fiber": "La tarifa de 5 GB té un cost de 9€. Com que ja tens contractada una fibra, potser t’interessa més la “línia mòbil associada a fibra”: il·limitades + 20 GB per 8,00€.",
+        "content_user_logged_change_offer_tariff": "La tarifa de 20 GB que tens contractada està associada a la teva fibra i per això té un cost de 8€ / mes (en comptes de 13€). Si canvies a una altra tarifa mòbil, perdràs aquest descompte.",
+        "button_want": "Vull la tarifa de 20 GB (8€)",
+        "button_dont_want": "Vull la tarifa de 5 GB (9€)"
+      },
+      "internet": {
+        "add_line": "Vols afegir una altra línia d'internet?",
+        "categories": {
+          "adsl": "ADSL sense fix",
+          "fiber": "Fibra + telèfon fix",
+          "fiber_no_landline": "Fibra sense fix",
+          "router4G": "Router 4G sense fix"
+        },
+        "subtitle": "Escull la teva tarifa d'internet",
+        "title": "Tarifes Internet",
+        "what_do_you_want": "Què vols?",
+        "what_speed": "Quina velocitat de connexió prefereixes?"
+      },
+      "internet_and_mobile": {
+        "title": "Tarifes Internet + Mòbil",
+        "sub_header": {
+          "question": "Mira aquí els nostres ",
+          "answer": "paquets de fibra + mòbil amb descompte"
+        }
+      },
+      "mobile": {
+        "add_line": "Vols afegir una altra línia de mòbil?",
+        "how_many_megabytes": "Quants MB d'internet vols?",
+        "how_many_minutes": "Quants minuts mensuals en trucades vols?",
+        "info": "El <1>cost de la SIM (2,05€)</1> s'afegirà a la factura inicial.<0/>Quina <3>tarifa</3> em convé?",
+        "subtitle": "Crea la teva tarifa de mòbil",
+        "title": "Tarifes Mòbil"
+      },
+      "recommended": {
+        "page_title": "Tarifes d'Internet + mòbil amb descompte",
+        "title_pack_tariff": "Tarifes de fibra + mòbil amb descompte",
+        "title_shared_tariff": "Tarifes de fibra + mòbil amb dades compartides",
+        "footer_question": "No trobes la tarifa que busques? ",
+        "footer_answer": "Utilitza el constructor de tarifes",
+        "associated_fiber": "associat a fibra",
+        "associated_fiber_plural": "associats a fibra",
+        "filters": {
+          "labels": {
+            "mobile": "{{ count }} mòbil",
+            "mobile_plural": "{{ count }} mòbils"
+          },
+          "label_mobile": "Quantes línies de mòbil?",
+          "label_bandWidth": "Quina fibra t'interessa?"
+        }
+      }
+    }
+  },
+  "invoices": {
+    "description": "Aquí tens les teves factures",
+    "download_error": "Hi ha hagut un error descarregant la factura. Si us plau, contacta amb serveis@somconnexio.coop",
+    "title": "Factures"
+  },
+  "login": {
+    "errors": {
+      "wrong_username_password": "Usuari o contrasenya incorrectes."
+    },
+    "forgot_my_password": "He oblidat la meva contrasenya o és el meu primer accés",
+    "password": "Contrasenya",
+    "submit": "Iniciar sessió",
+    "username": "DNI/NIE"
+  },
+  "password_reset": {
+    "change_password": "Canviar contrasenya",
+    "complete": "La contrasenya s'ha actualitzat.",
+    "current_password_hint": "La teva contrasenya actual",
+    "email_sent": "Hem enviat un correu electrònic a la teva adreça de correu amb les instruccions per canviar la contrasenya.",
+    "errors": {
+      "could_not_send_email": "Hi ha hagut un error en intentar enviar el correu electrònic.",
+      "passwords_do_not_match": "Les contrasenyes no coincideixen."
+    },
+    "go_to_login": "Iniciar sessió",
+    "invalid_link": "Aquest enllaç per canviar la contrasenya no és vàlid o ha caducat.",
+    "more_services": "Prem aquí per contractar més serveis",
+    "new_password_hint": "La teva nova contrasenya",
+    "repeat_password_hint": "Repeteix la teva nova contrasenya",
+    "request": "Introdueix el teu DNI i t'enviarem un enllaç al teu correu electrònic per canviar la contrasenya",
+    "send_email": "Enviar email"
+  },
+  "price_tag": {
+    "category": {
+      "adsl": "ADSL",
+      "fiber": "Internet Fibra + Fix",
+      "fiber_no_landline": "Fibra sense fix",
+      "mobile": "Mòbil",
+      "4G": "Router 4G sense fix",
+      "mobile_offer": "Mòbil associat a fibra"
+    },
+    "no_binding": "Sense permanència",
+    "reason_1": "Som cooperativa",
+    "reason_2": "No tenim afany de lucre",
+    "reason_3": "T'atenem en persona",
+    "vat_included": "IVA inclòs",
+    "totalAmount": "IMPORT TOTAL"
+  },
+  "profile": {
+    "change_email": {
+      "already_in_use": "Aquesta adreça de correu electrònic està actualment associada a aquest compte.",
+      "complete": "Petició rebuda. Consulta la safata d'entrada de l'adreça de correu antiga.",
+      "confirm_password": "Confirmar contrasenya",
+      "current_email": "Correu electrònic",
+      "description": "T'enviarem un enllaç de confirmació al teu nou correu electrònic. Si us plau, fes clic a l'enllaç que rebràs per confirmar el canvi.",
+      "disclaimer": "Nota: Aquesta adreça s'utilitzarà per iniciar sessió a l'Oficina Virtual i per enviar-te notificacions generals de la cooperativa (butlletins, convocatòries, assemblees...)",
+      "forgot_password": "Has oblidat la contrasenya?",
+      "title": "Canviar correu electrònic"
+    },
+    "change_password": {
+      "title": "Canviar contrasenya"
+    },
+    "index": {
+      "email": "Correu electrònic",
+      "password": "Contrasenya"
+    },
+    "title": "Dades personals",
+    "hire_service": "Contractar nous serveis"
+  },
+  "request_change": {
+    "change_email": {
+      "email": "Correu electrònic",
+      "title": "Sol·licitar canvi de correu electrònic",
+      "your_new_email": "El teu nou correu electrònic"
+    },
+    "change_iban": {
+      "add_new_iban": "Afegeix nou IBAN",
+      "use_exist_iban": "Canvia per un IBAN ja emprat en altres serveis contractats",
+      "confirm_checkbox": "Confirmo que el titular del compte bancari autoritza la domiciliació de les factures de Som Connexió.",
+      "invalid_iban": "L'IBAN introduït no és vàlid.",
+      "title": "Sol·licitar canvi d'IBAN",
+      "subscription_IBAN": "IBAN associat al servei:",
+      "subscriptions_IBAN": "IBAN associat a tots els serveis contractats:",
+      "existing_iban": "L'IBAN introduït està relacionat amb altre servei que tens contractat a Som Connexió. Si us plau, selecciona l'IBAN del llistat. Tingues en compte que el servei que ja té aquest IBAN assignat no es veurà afectat per cap canvi.",
+      "without_effect": "L'IBAN introduït ja està relacionat amb el servei"
+    },
+    "empty_state": "Encara no tens productes contractats.",
+    "select_scope": {
+      "all_contracts": "Tots els contractes",
+      "some_contracts": "Alguns en concret",
+      "subtitle": "Quins contractes vols canviar?",
+      "title": "Sol·licitud de canvi de contractes"
+    },
+    "select_subscriptions": {
+      "title": "Selecciona els contractes que vols canviar."
+    },
+    "select_topic": {
+      "bank_account": "Compte bancari",
+      "bank_account_description": "Canviar el compte bancari en què es cobrarà el contracte.",
+      "bank_account_disclaimer": "AVÍS. Aquesta opció no modifica el compte bancari on es cobra el capital social. Per fer-ho, cal posar-se en contacte amb el departament de facturació a través del correu <0>facturacio@somconnexio.coop</0>.",
+      "email": "Correu electrònic",
+      "email_description": "Canviar l'adreça a on s'enviaran les factures i notificacions que afectin directament a aquest servei.",
+      "request_change": "Sol·licitar canvi",
+      "title": "Quina informació desitges canviar?"
+    },
+    "success": "Hem rebut correctament la teva sol·licitud. Per confirmar el canvi, revisa el teu correu electrònic i fes clic a l'enllaç que t'hem enviat.",
+    "title": "Canviar dades de contracte"
+  },
+  "subscriptions": {
+    "detail": {
+      "additional_data": "Afegir dades extres",
+      "additional_data_modal": {
+        "add_package": "Afegir dades",
+        "description": "Aquesta ampliació de dades és només vigent per al mes en curs. No modifica la tarifa contractada amb la teva línia",
+        "selected_package": "Paquet seleccionat:",
+        "confirm": "Aquests acció no modifica la teva tarifa. Les dades extres seran vigents només en el mes en curs i un cop activades ja no es podran cancel·lar.",
+        "confirmation": {
+          "title": "Has realitzat una sol·licitud d'ampliació de dades amb anterioritat a aquesta. Estem atenent la teva sol·licitud. Intenta-ho de nou més tard. Moltes gràcies!"
+        }
+      },
+      "secret_modal": {
+        "info": "Si el mòbil t'està demanant el codi PUK significa que has posat un codi PIN equivocat 3 vegades. Un cop inserit el codi PUK, hauràs d'introduir un codi PIN nou. El telèfon es desbloquejarà i aquest serà el teu nou Codi PIN a partir d’ara.<br><br>Per raons de seguretat, cal que tornis a entrar la contrasenya de la Oficina Virtual",
+        "error": {
+          "password": "Contrasenya incorrecta",
+          "message": "Introdueix de nou la teva contrasenya per veure el codi PUK"
+        }
+      },
+      "puk_tooltip": "Clica per consultar el codi PUK",
+      "show_puk": "Veure codi PUK",
+      "address": "Adreça",
+      "change_tariff": "Canvi de tarifa",
+      "change_owner": "Canvi de titular",
+      "change_tariff_modal": {
+        "change_tariff": "Canviar tarifa",
+        "confirmation": {
+          "title": "Prèviament has fet una petició de canvi de tarifa, has demanat <0>\"{{product_name}}\"</0>, vols continuar amb el canvi actual i cancel·lar l'anterior?"
+        },
+        "current_tariff": "La teva tarifa actual:",
+        "selected_tariff": "Tarifa seleccionada:",
+        "confirm": "La tarifa que sol·lícites s'activarà el dia <0>{{effectiveDate}}</0>.",
+        "productName": "Mòbil - <0>{{productName}}</0>"
+      },
+      "change_tariff_BA_without_landline": "Canviar a Fibra sense telèfon fix",
+      "change_tariff_BA_with_landline": "Canviar a Fibra amb telèfon fix",
+      "change_tariff_BA_modal": {
+        "fiber_title_100": "Canvi a Fibra 100Mb sense fix",
+        "fiber_title": "Canvi a Fibra 300Mb sense fix",
+        "ADSL_title": "Canvi d'ADSL a Fibra 300Mb sense fix",
+        "fiber_description_a_100": "A la factura del mes vinent ja veuràs reflectit el canvi de producte a fibra 100Mb sense fix per 31,5€ al mes (IVA incl.).",
+        "fiber_description_a": "A la factura del mes vinent ja veuràs reflectit el canvi de producte a fibra 300Mb sense fix per 31,5€ al mes (IVA incl.).",
+        "fiber_description_b": "Aquest canvi no comporta la visita del servei tècnic al domicili. Si més endavant vols tornar a contractar el servei de fix, escriu-nos a <0>serveis@somconnexio.coop</0>.",
+        "ADSL_description_a": "El següent pas serà que et contactin del servei tècnic per concertar la cita per anar a instal·lar la nova fibra.",
+        "ADSL_description_b": "Una vegada instal·lada la fibra, tramitarem la baixa automàtica de l'ADSL i s'iniciarà la facturació de la fibra 300Mb sense fix per 31,5€ al mes (IVA incl.). Si tens cap dubte, escriu-nos a <0>serveis@somconnexio.coop</0>.",
+        "fiber_confirm": "En els propers dies el fix quedarà inactiu i el canvi de preu tindrà efecte immediat",
+        "ADSL_confirm": "Un cop s'instal·li la fibra, l'ADSL quedarà inactiu",
+        "landLine": {
+          "ADSL_confirm": "Un cop s'instal·li la fibra, l'ADSL quedarà inactiu",
+          "ADSL_title": "Canvi d'ADSL a Fibra 300Mb amb fix",
+          "ADSL_description_a": "El següent pas serà que et contactin del servei tècnic per concertar la cita per anar a instal·lar la nova fibra.",
+          "ADSL_description_b": "Una vegada instal·lada la fibra, tramitarem la baixa automàtica de l'ADSL i s'iniciarà la facturació de la fibra 300Mb amb fix per 34€ al mes (IVA incl.). Si tens cap dubte, escriu-nos a <0>serveis@somconnexio.coop</0>."
+        }
+      },
+      "email": "Correu electrònic",
+      "history": "Històric del servei",
+      "iban": "IBAN",
+      "name": "Nom del titular",
+      "product_picker": {
+        "minutes": {
+          "n_minutes": "{{count}} minuts",
+          "no_minutes": "Sense minuts",
+          "unlimited_minutes": "Minuts il·limitats"
+        }
+      },
+      "vat_number": "DNI/NIE",
+      "summer_promotion": "Des del 15 de juny fins al 30 de setembre, les línies amb tarifa <strong>Trucades Il·limitades + 20GB i superiors</strong> disposaran de 30GB extres mensuals, sense cost afegit.<br/><br/>No és necessari que facis cap operació per a activar aquesta promo.<br/><br/>Aquest tipus de promocions no encaixa amb els nostres valors i continuem promovent un consum conscient.<br/><br/>No augmentis les teves dades extres si no has rebut el missatge conforme les has esgotades.<br/><br/>Si detectes una baixada en la velocitat de la teva connexió, i no has rebut l'avís de Dades Esgotades, contacta amb <0>serveis@somconnexio.coop</0> i revisarem el teu cas."
+    },
+    "list": {
+      "and_other_services": "i un altre servei",
+      "and_other_services_plural": "i {{count}} altres serveis"
+    },
+    "type": {
+      "adsl": "ADSL",
+      "fiber": "Fibra",
+      "mobile": "Mòbil",
+      "broadband": "Banda Ampla"
+    },
+    "modify_service": "modificar servei",
+    "more_info": "detall servei",
+    "pack_warning_modal": {
+      "warning_title": "La teva tarifa està bonificada",
+      "warning_body": "La tarifa de {{planSize}} que tens contractada està associada a la teva fibra i per això té un cost de {{currentPrice}} (en comptes de {{originalPrice}}). Si canvies a una altra tarifa mòbil, perdràs aquest descompte.",
+      "refuse_pack_change": "Mantenir tarifa de {{planSize}}",
+      "confirm_pack_change": "Canviar"
+    }
+  },
+  "summary": {
+    "title": "Serveis contractats"
+  },
+  "urls": {
+    "more_info": {
+      "adsl": "/todo",
+      "fiber": "/todo",
+      "mobile": "/todo"
+    },
+    "tariffs": {
+      "internet_and_phone": "https://somconnexio.coop/tarifes-internet/",
+      "mobile": "https://somconnexio.coop/tarifes-mobil/",
+      "mobile_internet_and_phone": "https://somconnexio.coop/tarifes-internet-mobil/"
+    },
+    "terms": "https://somconnexio.coop/condicions-generals/",
+    "privacy": "https://somconnexio.coop/condicions-generals/#politicaprivadesa"
+  },
+  "sponsor": {
+    "title": "Apadrina",
+    "description": "Aquí t'expliquem com apadrinar",
+    "sponsoreds": "Apadrinades",
+    "have_got": "Tens {{sponseesNumber}} de {{sponseesMax}}",
+    "sponsoreds_persons": "persones apadrinades",
+    "there_are_left_plural": "Encara pots apadrinar {{count}} persones !",
+    "there_are_left": "Encara pots apadrinar {{count}} persona !",
+    "there_arent_left": "Ja tens tots els teus apadrinaments coberts. Molt bé !",
+    "message_messenger_service": "Hola! Et vull apadrinar a Som Connexió, la telefonia conscient!  \n \nLes persones apadrinades poden contractar serveis de mòbil, fibra i fix sense necessitat de pagar l'alta d'associat. Si t'interessa, a més del meu DNI, hauràs d'utilitzar el codi \"{{codeToSponsor}}\" quan facis la contractació a {{urlJoinSponsored}}.",
+    "steps": {
+      "first": {
+        "description": "Per apadrinar una persona, has de compartir amb ella la següent informació:",
+        "first_action": "<strong>L'enllaç</strong> per accedir als serveis: <0><i>{{urlJoinSponsored}}</i></0>",
+        "second_action": "El teu número de DNI/NIE (o de NIF si ets una empresa)",
+        "third_action": "El següent <strong>codi</strong>:",
+        "code_to_sponsor": "Codi per apadrinar",
+        "small_print": "*Comparteix aquest codi només amb les persones que vulguis apadrinar (no el comparteixis a xarxes socials).",
+        "code_copied": "Codi apadrinament copiat",
+        "url_copied": "Enllaç apadrinament copiat",
+        "share_via_social_media": "També pots compartir el codi i l'enllaç via:"
+      },
+      "second": {
+        "description": "La persona apadrinada ha de marcar l'opció \"<0>{{literalPartnerSponsorsMe}}</0>\" en el procés de contractació."
+      }
+    }
+  },
+  "share_data": {
+    "title": "Dades Compartides",
+    "description": "Tarifes bonificades en les quals a una fibra s'associen 2 o 3 mòbils que comparteixen un abonament mensual de 50 gigues de dades.",
+    "select": "Selecciona els mòbils i la fibra per compartir dades:",
+    "combine": "Combina",
+    "contracts_sharing": "Les teves tarifes de dades compartides:",
+    "stop_sharing": "deixar de compartir",
+    "advice": "No tens prou serveis contractats per activar les dades compartides.",
+    "advice_explain": "Necessites un mínim de 1 servei de fibra i 2 mòbils actius i disponibles (que no formen part ja d'un paquet de dades compartides). Actualment tens:",
+    "advice_advice": "*Un cop tinguis actius els nous serveis contractats, torna a aquesta pàgina per agrupar-los en dades compartides",
+    "advice_have": "Serveis: <strong>{{n_fibers}} fibres</strong> i <strong>{{n_mobiles}} mòbils</strong> actius i disponibles",
+    "contract": {
+      "2_mob_desc": "Les línies <strong>{{mob1}} i {{mob2}}</strong> estan compartint 50 GB de dades i estan associades a la <strong>{{fiber}} de l'adreça {{address}}</strong>",
+      "3_mob_desc": "Les línies <strong>{{mob1}}, {{mob2}} i {{mob3}}</strong> estan compartint 50 GB de dades i estan associades a la <strong>{{fiber}} de l'adreça {{address}}</strong>"
+    },
+    "mobiles": {
+      "description": "Selecciona quines de les teves línies compartiran 50 GB de dades i fes clic a continuar (pots seleccionar 2 o 3 línies).",
+      "advice": "*El canvi es fara efectiu el mes vinent",
+      "price": {
+        "advice": "*Selecciona una línia més",
+        "total": "Mòbils amb 50 GB dades compartides"
+      }
+    },
+    "fibers": {
+      "description": "Selecciona a quina fibra quedaran vinculades aquestes línies amb dades compartides."
+    },
+    "ends": {
+      "how_many_mobiles": "Línies compartint 50GB de dades:",
+      "fiber_linked": "Vinculades a la fibra:",
+      "total_price": "Preu Final",
+      "mobile_descripiton": "línies amb 50 GB de dades compartides",
+      "confirmation": {
+        "title": "Prèviament has fet una petició de canvi de tarifa:",
+        "title_plural": "Prèviament has fet {{count}} peticións de canvi de tarifa:",
+        "line": "Línia <strong>{{mob}}</strong> canvia a {{prod}}",
+        "advice": "Si agrupes aquesta línia a dades compartides perdràs el canvi que havies fet. Vols continuar amb el canvi actual i cancel·lar l'anterior?",
+        "advice_plural": "Si agrupes aquestes línies a dades compartides perdràs els canvis que havies fet. Vols continuar amb els canvis actuals i cancel·lar els anteriors?"
+      }
+    },
+    "succes": {
+      "title": "Canvi realitzat correctament.",
+      "subtitle": "La nova tarifa de 50 GB de dades compartides s’activarà el mes vinent."
+    },
+    "header": {
+      "steps": {
+        "mobiles": "Mòbils",
+        "fibers": "Fibra",
+        "end": "Finalitza"
+      }
+    },
+    "limit_data": {
+      "title": "Limitar Dades Compartides",
+      "limit_to": "Limitat a {{bytes}}",
+      "advice": "Pots limitar el nombre de dades que pot consumir cada un del mòbils que comparteixen 50GB dades",
+      "data_amount": "50GB compartits entre:",
+      "data_sahred_line": "Línia",
+      "data_shared_subtitle": "Dades compartides",
+      "data_shared_none": "Sense limitar",
+      "modal": {
+        "title": "Limitar les dades que pot consumir la línia {{mobile_line}}",
+        "data_amount": "50GB compartits"
+      },
+      "log": {
+        "success": {
+          "limit_applied": "Hem rebut correctament la teva petició de limitació de consum. S’aplicarà en els 10 minuts vinents. Un cop aplicada, la veuràs reflectida a l’Oficina Virtual."
+        },
+        "error": {
+          "limit_applied": "Estem trobant problemes amb la petició de limitació de consum. Si us plau, prova-ho de nou en uns minuts."
+        }
+      }
+    }
+  }
+}
